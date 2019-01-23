@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.sunxy.uitestdemo.view.PraiseView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        app:praise_number="99"
+        android:layout_height="wrap_content" />
+
+    <com.sunxy.uitestdemo.view.PraiseView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        app:praise_number="0"
+        android:layout_height="wrap_content" />
+
+    <com.sunxy.uitestdemo.view.PraiseView
+        android:background="@color/colorAccent"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        app:praise_number="1023"
+        app:praise_number_color="#fff"
+        android:layout_height="wrap_content" />
+
+    <com.sunxy.uitestdemo.view.PraiseView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        app:praise_number="213654"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

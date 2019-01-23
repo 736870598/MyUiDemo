@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sunxy.uitestdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.RecordBtnActivity" />
+        <activity android:name=".ui.PraiseViewActivity" />
+        <activity android:name=".ui.PosRecycleViewActivity" />
+        <activity android:name=".ui.DelEditViewActivity" />
+        <activity android:name=".ui.FlowLayoutActivity" />
+
+    </application>
+
+</manifest>
