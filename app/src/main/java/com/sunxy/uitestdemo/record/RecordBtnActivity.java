@@ -1,6 +1,7 @@
-package com.sunxy.uitestdemo.ui;
+package com.sunxy.uitestdemo.record;
 
 import com.sunxy.uitestdemo.R;
+import com.sunxy.uitestdemo.base.BaseActivity;
 
 /**
  * 防微信录制视频按钮效果

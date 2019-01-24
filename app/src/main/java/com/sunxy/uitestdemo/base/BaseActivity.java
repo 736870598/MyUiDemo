@@ -1,10 +1,10 @@
-package com.sunxy.uitestdemo.ui;
+package com.sunxy.uitestdemo.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
-import com.sunxy.uitestdemo.model.UiModel;
+import com.sunxy.uitestdemo.home.UiModel;
 
 /**
  * SunXiaoYu on 2019/1/23.

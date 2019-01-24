@@ -1,4 +1,4 @@
-package com.sunxy.uitestdemo.ui;
+package com.sunxy.uitestdemo.pos_recycle;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.LinearLayoutManager;
@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.sunxy.uitestdemo.R;
+import com.sunxy.uitestdemo.base.BaseActivity;
 
 /**
  * SunXiaoYu on 2019/1/23.

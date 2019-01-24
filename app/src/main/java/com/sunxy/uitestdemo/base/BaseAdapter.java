@@ -1,4 +1,4 @@
-package com.sunxy.uitestdemo.adapter;
+package com.sunxy.uitestdemo.base;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -45,6 +45,10 @@ public abstract class BaseAdapter<T> extends RecyclerView.Adapter<BaseAdapter.RV
             notifyDataSetChanged();
         }
         dataChange();
+    }
+
+    public List<T> getList() {
+        return list;
     }
 
     public void clear(){

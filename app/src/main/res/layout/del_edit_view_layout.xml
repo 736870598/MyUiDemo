@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.sunxy.uitestdemo.view.MyEditText
+    <com.sunxy.uitestdemo.editview.MyEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:no_focus_show_icon="true"  />
 
 
-    <com.sunxy.uitestdemo.view.MyEditText
+    <com.sunxy.uitestdemo.editview.MyEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:show_icon="@mipmap/show"

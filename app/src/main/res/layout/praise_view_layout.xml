@@ -6,19 +6,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.sunxy.uitestdemo.view.PraiseView
+    <com.sunxy.uitestdemo.praise.PraiseView
         android:layout_margin="10dp"
         android:layout_width="wrap_content"
         app:praise_number="99"
         android:layout_height="wrap_content" />
 
-    <com.sunxy.uitestdemo.view.PraiseView
+    <com.sunxy.uitestdemo.praise.PraiseView
         android:layout_margin="10dp"
         android:layout_width="wrap_content"
         app:praise_number="0"
         android:layout_height="wrap_content" />
 
-    <com.sunxy.uitestdemo.view.PraiseView
+    <com.sunxy.uitestdemo.praise.PraiseView
         android:background="@color/colorAccent"
         android:layout_margin="10dp"
         android:layout_width="wrap_content"
@@ -26,7 +26,7 @@
         app:praise_number_color="#fff"
         android:layout_height="wrap_content" />
 
-    <com.sunxy.uitestdemo.view.PraiseView
+    <com.sunxy.uitestdemo.praise.PraiseView
         android:layout_margin="10dp"
         android:layout_width="wrap_content"
         app:praise_number="213654"

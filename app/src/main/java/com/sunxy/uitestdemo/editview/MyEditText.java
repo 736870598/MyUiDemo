@@ -1,4 +1,4 @@
-package com.sunxy.uitestdemo.view;
+package com.sunxy.uitestdemo.editview;
 
 import android.content.Context;
 import android.content.res.TypedArray;

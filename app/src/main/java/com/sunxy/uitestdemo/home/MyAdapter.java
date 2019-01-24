@@ -1,10 +1,10 @@
-package com.sunxy.uitestdemo.adapter;
+package com.sunxy.uitestdemo.home;
 
 import android.content.Intent;
 import android.view.View;
 
 import com.sunxy.uitestdemo.R;
-import com.sunxy.uitestdemo.model.UiModel;
+import com.sunxy.uitestdemo.base.BaseAdapter;
 
 /**
  * SunXiaoYu on 2019/1/23.

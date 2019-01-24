@@ -1,4 +1,4 @@
-package com.sunxy.uitestdemo.model;
+package com.sunxy.uitestdemo.home;
 
 import android.app.Activity;
 

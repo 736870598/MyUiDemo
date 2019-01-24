@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".home.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -16,11 +16,12 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ui.RecordBtnActivity" />
-        <activity android:name=".ui.PraiseViewActivity" />
-        <activity android:name=".ui.PosRecycleViewActivity" />
-        <activity android:name=".ui.DelEditViewActivity" />
-        <activity android:name=".ui.FlowLayoutActivity" />
+        <activity android:name=".record.RecordBtnActivity" />
+        <activity android:name=".praise.PraiseViewActivity" />
+        <activity android:name=".pos_recycle.PosRecycleViewActivity" />
+        <activity android:name=".editview.DelEditViewActivity" />
+        <activity android:name=".flow.FlowLayoutActivity" />
+        <activity android:name=".darg.DragActivity" />
 
     </application>
 

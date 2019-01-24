@@ -1,4 +1,4 @@
-package com.sunxy.uitestdemo.view;
+package com.sunxy.uitestdemo.flow;
 
 import android.content.Context;
 import android.util.AttributeSet;

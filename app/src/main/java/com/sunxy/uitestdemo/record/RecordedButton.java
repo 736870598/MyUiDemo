@@ -1,4 +1,4 @@
-package com.sunxy.uitestdemo.view;
+package com.sunxy.uitestdemo.record;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;

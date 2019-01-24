@@ -1,6 +1,7 @@
-package com.sunxy.uitestdemo.ui;
+package com.sunxy.uitestdemo.editview;
 
 import com.sunxy.uitestdemo.R;
+import com.sunxy.uitestdemo.base.BaseActivity;
 
 /**
  * SunXiaoYu on 2019/1/23.

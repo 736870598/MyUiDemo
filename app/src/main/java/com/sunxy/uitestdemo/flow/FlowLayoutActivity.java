@@ -1,11 +1,11 @@
-package com.sunxy.uitestdemo.ui;
+package com.sunxy.uitestdemo.flow;
 
 import android.graphics.Color;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.sunxy.uitestdemo.R;
-import com.sunxy.uitestdemo.view.FlowLayout;
+import com.sunxy.uitestdemo.base.BaseActivity;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.sunxy.uitestdemo.view;
+package com.sunxy.uitestdemo.praise;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
