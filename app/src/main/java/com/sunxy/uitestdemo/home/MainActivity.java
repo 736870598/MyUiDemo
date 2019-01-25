@@ -13,6 +13,7 @@ import com.sunxy.uitestdemo.flow.FlowLayoutActivity;
 import com.sunxy.uitestdemo.pos_recycle.PosRecycleViewActivity;
 import com.sunxy.uitestdemo.praise.PraiseViewActivity;
 import com.sunxy.uitestdemo.record.RecordBtnActivity;
+import com.sunxy.uitestdemo.slide.SlideActivity;
 import com.sunxy.uitestdemo.three_bezier.ThreeBezierActivity;
 
 import java.util.ArrayList;
@@ -45,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         list.add(new UiModel("item拖拽效果", DragActivity.class));
         list.add(new UiModel("三阶Bezier动画效果", ThreeBezierActivity.class));
         list.add(new UiModel("防QQ拖拽消息泡效果", DragBezierActivity.class));
+        list.add(new UiModel("防汽车之家炫酷侧边栏效果", SlideActivity.class));
 
         return list;
     }

@@ -12,8 +12,11 @@
         list.add(new UiModel("item拖拽效果", DragActivity.class));
         list.add(new UiModel("三阶Bezier动画效果", ThreeBezierActivity.class));
         list.add(new UiModel("防QQ拖拽消息泡效果", DragBezierActivity.class));
+        list.add(new UiModel("防汽车之家炫酷侧边栏效果", SlideActivity.class));
         
+### 效果:        
         
+防QQ拖拽消息泡效果 ![image](https://github.com/736870598/MyUiDemo/blob/master/img/SlideActivity.png)   
         
 ### ItemTouchHelper
          
