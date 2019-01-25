@@ -22,6 +22,8 @@
         <activity android:name=".editview.DelEditViewActivity" />
         <activity android:name=".flow.FlowLayoutActivity" />
         <activity android:name=".darg.DragActivity" />
+        <activity android:name=".three_bezier.ThreeBezierActivity" />
+        <activity android:name=".drag_bezier.DragBezierActivity" />
 
     </application>
 
