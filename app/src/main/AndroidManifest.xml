@@ -26,6 +26,9 @@
         <activity android:name=".drag_bezier.DragBezierActivity" />
         <activity android:name=".slide.SlideActivity" />
         <activity android:name=".bounce.BounceActivity" />
+        <activity android:name=".stretching.StretchingActivity" />
+        <activity android:name=".viewpager.VerticalViewPagerActivity" />
+        <activity android:name=".search.SearchActivity" />
 
     </application>
 

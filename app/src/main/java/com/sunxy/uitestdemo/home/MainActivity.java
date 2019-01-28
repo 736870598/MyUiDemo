@@ -1,7 +1,8 @@
 package com.sunxy.uitestdemo.home;
 
-import android.support.v7.app.AppCompatActivity;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
@@ -14,8 +15,12 @@ import com.sunxy.uitestdemo.flow.FlowLayoutActivity;
 import com.sunxy.uitestdemo.pos_recycle.PosRecycleViewActivity;
 import com.sunxy.uitestdemo.praise.PraiseViewActivity;
 import com.sunxy.uitestdemo.record.RecordBtnActivity;
+import com.sunxy.uitestdemo.search.SearchActivity;
 import com.sunxy.uitestdemo.slide.SlideActivity;
+import com.sunxy.uitestdemo.stretching.StretchingActivity;
 import com.sunxy.uitestdemo.three_bezier.ThreeBezierActivity;
+import com.sunxy.uitestdemo.utils.LinItemDecoration;
+import com.sunxy.uitestdemo.viewpager.VerticalViewPagerActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         RecyclerView recycle_view = findViewById(R.id.recycle_view);
+        recycle_view.addItemDecoration(new LinItemDecoration(Color.GREEN, 5));
         recycle_view.setLayoutManager(new LinearLayoutManager(this));
         MyAdapter adapter = new MyAdapter();
         recycle_view.setAdapter(adapter);
@@ -49,6 +55,9 @@ public class MainActivity extends AppCompatActivity {
         list.add(new UiModel("防QQ拖拽消息泡效果", DragBezierActivity.class));
         list.add(new UiModel("防汽车之家炫酷侧边栏效果", SlideActivity.class));
         list.add(new UiModel("弹性Dialog。。", BounceActivity.class));
+        list.add(new UiModel("头部可拉伸的listview", StretchingActivity.class));
+        list.add(new UiModel("可垂直滑动的viewpager", VerticalViewPagerActivity.class));
+        list.add(new UiModel("自定义搜索View", SearchActivity.class));
 
         return list;
     }

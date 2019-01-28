@@ -13,6 +13,10 @@
         list.add(new UiModel("三阶Bezier动画效果", ThreeBezierActivity.class));
         list.add(new UiModel("防QQ拖拽消息泡效果", DragBezierActivity.class));
         list.add(new UiModel("防汽车之家炫酷侧边栏效果", SlideActivity.class));
+        list.add(new UiModel("弹性Dialog。。", BounceActivity.class));
+        list.add(new UiModel("头部可拉伸的listview", StretchingActivity.class));
+        list.add(new UiModel("可垂直滑动的viewpager", VerticalViewPagerActivity.class));
+        list.add(new UiModel("自定义搜索View", SearchActivity.class));
         
 ### 效果:        
         

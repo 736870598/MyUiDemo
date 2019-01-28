@@ -193,7 +193,6 @@ public class PraiseView extends View {
     // 宽度：手的宽度 + 文字宽度 + 30
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
         heightMeasureSpec = MeasureSpec.makeMeasureSpec(unSelected.getHeight() + SystemUtils.dp2px(getContext(),20), MeasureSpec.EXACTLY);
         String textNum = String.valueOf(praiseNumber);
         float measureText = textPaint.measureText(textNum, 0, textNum.length());

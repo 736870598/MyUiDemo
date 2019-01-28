@@ -12,4 +12,5 @@
         <attr name="hide_icon" format="reference"  />
         <attr name="no_focus_show_icon" format="boolean"  />
     </declare-styleable>
+
 </resources>
