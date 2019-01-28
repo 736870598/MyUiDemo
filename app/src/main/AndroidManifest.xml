@@ -25,6 +25,7 @@
         <activity android:name=".three_bezier.ThreeBezierActivity" />
         <activity android:name=".drag_bezier.DragBezierActivity" />
         <activity android:name=".slide.SlideActivity" />
+        <activity android:name=".bounce.BounceActivity" />
 
     </application>
 

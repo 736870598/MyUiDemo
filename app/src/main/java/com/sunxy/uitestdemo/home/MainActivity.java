@@ -6,6 +6,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import com.sunxy.uitestdemo.R;
+import com.sunxy.uitestdemo.bounce.BounceActivity;
 import com.sunxy.uitestdemo.darg.DragActivity;
 import com.sunxy.uitestdemo.drag_bezier.DragBezierActivity;
 import com.sunxy.uitestdemo.editview.DelEditViewActivity;
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         list.add(new UiModel("三阶Bezier动画效果", ThreeBezierActivity.class));
         list.add(new UiModel("防QQ拖拽消息泡效果", DragBezierActivity.class));
         list.add(new UiModel("防汽车之家炫酷侧边栏效果", SlideActivity.class));
+        list.add(new UiModel("弹性Dialog。。", BounceActivity.class));
 
         return list;
     }
